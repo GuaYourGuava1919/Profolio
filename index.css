@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+
+.container .title::after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #444545;
+    position: absolute;
+    bottom:-20px;
+    left: 0;
+}
+
+.container .title {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    
+}
+
+.container .title h2{
+    font-size: 56px;
+} 
+
+.container .avatar {
+    width: 50%;
+    /* background-color: brown; */
+}
+
+.container .avatar img{
+    width: 50%;
+    padding-top: 30px;
+}
+
+.container .profile{
+    margin-top: 50px;
+}
+
+.container .profile .p_title{
+    display: flex;
+    align-items:flex-end;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.container .profile .p_title span{
+    color: crimson;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.container .profile .p_title::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #444545;
+    position: absolute;
+    bottom:-10px;
+    left: 0;
+}
+
+.container .profile .p_content{
+    line-height:1.6;
+}
+
+.container .profile .p_content p {
+    margin-top: 20px; 
+}
+
+.container .education{
+    margin-bottom: 50px;
+}
+
+
+
+.container .education .e_title{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    margin: 50px 0;
+}
+
+.container .education .e_title span{
+    color: crimson;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+
+.container .education .e_title::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #444545;
+    position: absolute;
+    bottom:-10px;
+    left: 0;
+}
+
+
+.container .skills{
+    width: 100%;
+    height: 400px;
+    background-color: #415165;
+    color: whitesmoke;
+    position: relative;
+}
+
+.container .skills .s_title{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+
+.container .skills .s_title::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 90%;
+    background-color: whitesmoke;
+    position: absolute;
+    bottom:-5px;
+}
+
+
+
+.container .skills .s_content{
+    width: 300px;
+    top: 100px;
+    right: 200px;
+    position: absolute;
+    line-height: 2;
+}
+
+.container .skills .s_content ::after{
+    content: '';
+    display: block;
+    height: 280px;
+    width: 1px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: -5px;
+    left: -30px;
+}
+
+
+.container .work .w_title{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    margin: 40px 0;
+}
+
+.container .work .w_title span{
+    color: crimson;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+
+.container .work .w_title::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #444545;
+    position: absolute;
+    bottom:-10px;
+    left: 0;
+}
+
+.container .work .w_content{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    position: relative;
+}
+
+.container .work .w_content img{
+    width: 80px;
+}
+
+.container .work .w_content span{
+    font-weight: 700;
+    line-height: 2;
+}
+
+.container .work .w_content p{
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.container .work .w_content::after{
+    content: '';
+    display: block;
+    height: 480px;
+    width: 1.5px;
+    background-color: #a0b5ce;
+    position: absolute;
+    top: 10px;
+    left: -15px;
+}
+
+
+.contact{
+    width: 100%;
+    background-color: #415165;
+    color: whitesmoke;
+}
+
+.contact .c_title{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+}
+
+.contact .c_title h3{
+    padding: 10px 0;
+}
+
+
+.contact .c_title::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 80%;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+
+.contact .c_icon{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contact .c_icon img{
+    width: 30px;
+    margin: 10px;
+}
+
